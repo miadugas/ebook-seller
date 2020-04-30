@@ -1,0 +1,25 @@
+{
+  "name": "ebook-seller",
+  "version": "1.0.0",
+  "description": "App to sell ebooks",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miadugas/ebook-seller.git"
+  },
+  "author": "Mia Dugas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miadugas/ebook-seller/issues"
+  },
+  "homepage": "https://github.com/miadugas/ebook-seller#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "stripe": "^8.48.0"
+  }
+}
